@@ -10,7 +10,7 @@ int main()
 {
     const long long big_num = 600851475143;
     long new_big_num = big_num;
-    long lpf;                               
+    long lpf = 0;                               
 
     int n = 2;                              
     while (n * n <= new_big_num)            
@@ -24,9 +24,9 @@ int main()
             ++n;
     }
     if (new_big_num > lpf)
-        lpf  = new_big_num;
+        lpf = new_big_num;
     
-    printf("Largest Prime Factor = %d\n", lpf);
+    printf("Largest Prime Factor = %ld\n", lpf);
 
     return 0;
 }   

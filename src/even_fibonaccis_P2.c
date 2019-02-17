@@ -5,7 +5,7 @@
 
 int main()
 {
-    int a = 0, b = 1, c, i, sum = 0;
+    int a = 0, b = 1, c, sum = 0;
 
     c = a + b;
     while (c <= 4000*1000)
