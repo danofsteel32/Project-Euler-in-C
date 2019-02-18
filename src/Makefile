@@ -1,7 +1,7 @@
 #P=
 OBJECTS=
 CFLAGS= -g -Wall -O3
-LDLIBS=
+LDLIBS= -lm
 CC= gcc
 OUT= ../bin
 $(P): $(OBJECTS)
